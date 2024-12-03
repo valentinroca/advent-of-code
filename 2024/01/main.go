@@ -43,7 +43,7 @@ func calculateSimilarityScore(leftNums, rightNums []int) int {
 }
 
 func main() {
-	file, err := os.Open("input.csv")
+	file, err := os.Open("input")
 	if err != nil {
 		fmt.Println(err)
 		return
